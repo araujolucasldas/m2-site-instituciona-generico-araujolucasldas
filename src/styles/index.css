@@ -16,6 +16,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 236px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 /*.header__content{
@@ -116,6 +119,9 @@ em{
     flex-direction: column;
     gap: 33px;
     padding-right: 87px;
+    height: 280px;
+    position: sticky;
+    top: 170px;
 }
 
 .faq__info-title{
@@ -187,6 +193,8 @@ em{
     height: 283px;
     background-color: var(--brand-1);
     margin-left: 86px;
+    position: sticky;
+    top: 200px;
 }
 
 .comments__title{
