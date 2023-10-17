@@ -10,11 +10,27 @@
     --gray-3: #343A40;
     --gray-4: #ADB5BD;
     --gray-5: #CED4DA;
-    --gray-6: #5E5E5E;
+    --gray-6: #EDF2FF;
     --gray-7: #F8F9FA;
 
     --font-primary: 'Inter', sans-serif;
     --font-weight-title: 600;
     --font-weight-text: 400;
 
+    --font-size-title-1: 52px;
+    --font-size-title-2: 40px;
+    --font-size-title-3: 32px;
+    --font-size-text-1: 20px;
+    --font-size-text-2: 18px;
+    --font-size-text-3-4: 16px;
+
+    --line-height-title-1: 140%;
+    --line-height-title-2-3: 160%;
+    --line-height-text: 150%;
+
+}
+
+body{
+    background-color: var(--gray-2);
+    font-family: var(--font-primary);
 }
