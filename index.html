@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Generic Course</title>
+    <script src="./src/scripts/index.js" defer></script>
     <link rel="stylesheet" href="./src/styles/index.css" />
 </head>
 
@@ -135,6 +136,19 @@
     <footer class="footer__image">
         <img src="./src/assets/logo.svg" alt="Logo do Generic Course" />
     </footer>
+
+    <dialog id="modalController">
+        <div class="modal__container">
+            <div class="modal__top">
+                <h3 class="modal__title">Cadastro</h3>
+                <button id="closeModal" type="button">X</button>
+            </div>
+            <p class="modal__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+            <input class="modal__input" type="email" placeholder="Digitar email">
+            <button class="modal__button" type="button">Entrar na lista para próxima turma</button>
+
+        </div>
+    </dialog>
 </body>
 
 </html>
