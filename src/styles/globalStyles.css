@@ -16,13 +16,14 @@
     --font-primary: 'Inter', sans-serif;
     --font-weight-title: 600;
     --font-weight-text: 400;
-
-    --font-size-title-1: 52px;
-    --font-size-title-2: 40px;
-    --font-size-title-3: 32px;
-    --font-size-text-1: 20px;
-    --font-size-text-2: 18px;
-    --font-size-text-3-4: 16px;
+  
+    --font-size-title-1: clamp(1.625rem, .472rem + 4.341vw, 3.25rem);
+    --font-size-title-2: clamp(1.25rem, 0.363rem + 3.339vw, 2.5rem);
+    --font-size-title-3: clamp(1rem, 0.29rem + 2.671vw, 2rem);
+    --font-size-text-1: clamp(0.85rem, 0.182rem + 1.669vw, 1.25rem);
+    --font-size-text-2: clamp(0.625rem, 0.27rem + 1.336vw, 1.125rem);
+    --font-size-text-3-4: clamp(0.625rem, 0.359rem + 1.002vw, 1rem);
+    
 
     --line-height-title-1: 140%;
     --line-height-title-2-3: 160%;
