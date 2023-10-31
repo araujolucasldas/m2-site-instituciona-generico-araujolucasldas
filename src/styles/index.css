@@ -221,7 +221,7 @@ em{
 }
 
 .item__info{
-    width: 40rem;
+    width: 100rem;
     max-width: 100%;
 }
 
@@ -244,7 +244,6 @@ em{
     line-height: var(--line-height-text);
     color: var(--gray-4);
     text-align: justify;
-    width: 70%;
 }
 
 .footer__image{
@@ -364,6 +363,10 @@ dialog::backdrop{
         align-items: center;
         gap: 2rem;
 
+    }
+
+    .about__text {
+        width: fit-content;
     }
 
     .faq__content {
